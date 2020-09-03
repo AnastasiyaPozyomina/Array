@@ -1,0 +1,66 @@
+﻿html,
+body {
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+select,
+input,
+button {
+  padding: 8px;
+  font-size: 1 rem;
+}
+
+
+.array::before {
+  content: '[';
+  font-size: 5rem;
+}
+
+.array::after {
+  content: ']';
+  font-size: 5rem;
+}
+
+.img-size {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.array {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.array div {
+  position: relative;
+}
+
+.array span {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom:-20px;
+  display: block;
+  text-align:center;
+}
+
+.array-element {
+  margin-right: 50px;
+}
+
+.out-1-sourse {
+margin-bottom: 20px;
+}
