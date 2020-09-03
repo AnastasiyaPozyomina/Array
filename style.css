@@ -34,14 +34,25 @@ button {
 }
 
 .array {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-line-pack: stretch;
   align-content: stretch;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .array div {
@@ -52,9 +63,9 @@ button {
   position: absolute;
   right: 0;
   left: 0;
-  bottom:-20px;
+  bottom: -20px;
   display: block;
-  text-align:center;
+  text-align: center;
 }
 
 .array-element {
@@ -62,5 +73,5 @@ button {
 }
 
 .out-1-sourse {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
