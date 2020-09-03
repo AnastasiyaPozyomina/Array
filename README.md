@@ -1,4 +1,4 @@
-<a href=" https://anastasiyapozyomina.github.io/Array/">demo</a>
+<a href="https://anastasiyapozyomina.github.io/Array/">demo</a>
 
 <h1>Практическая работа по массивам </h1>
 
